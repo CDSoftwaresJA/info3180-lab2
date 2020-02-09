@@ -36,7 +36,7 @@ def profile():
     username="maryjane",
     address="Kingston,Jamaica",
     joined=format_date_joined(datetime.datetime.now()),
-    abt="About me",
+    abt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum, enim ac egestas malesuada, purus tortor accumsan neque, sit amet aliquam odio erat vel lectus. Praesent leo velit, egestas maximus mauris eu, porta varius nibh. Nam vel scelerisque justo. Curabitur in ligula id mi accumsan dignissim sed a dolor. Quisque et felis quis ante rhoncus fringilla eget luctus ante. Cras eu aliquet nunc. Mauris feugiat ipsum eget vehicula aliquet. Nullam dapibus neque dignissim neque lobortis, vitae iaculis tellus pulvinar. Etiam lacinia placerat feugiat. Aliquam non pharetra quam. Nullam enim ipsum, dignissim id lacus ac, molestie ultricies ante. Aenean luctus, eros et elementum consectetur, mauris nunc consequat leo, at tempor urna turpis eget neque. ",
     posts="7",
     followers="100",
     following="250",

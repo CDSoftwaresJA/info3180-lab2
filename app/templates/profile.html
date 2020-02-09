@@ -2,21 +2,23 @@
 
 {% block main %}
 <center>
-
-<img src={{ source }}></img>
-<h1>{{ name }}</h1>
-<h3>@{{ username }}</h3>
-<h3>{{ address }}</h3>
-<h3>{{ joined }}</h3>
+<div id="top_div">
+<img id="img"src={{ source }}></img>
+<b><h1>{{ name }}</h1></b>
+<h5>@{{ username }}</h5>
+<h5>{{ address }}</h5>
+<h5>{{ joined }}</h5>
+</div>
+<div id="bottom_div">
 <p>{{ abt }}
 <br>
 <b>{{ posts }}  {{following}}  {{followers}}</b>
 <br>
        Posts      Following    Followers
 <br>
- <button type="button">Follow</button> 
+ <button id="btn_follow" type="button">Follow</button> 
 </p>
-
+</div>
 </center>
 
 {% endblock %}

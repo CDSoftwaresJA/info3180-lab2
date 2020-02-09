@@ -1,3 +1,24 @@
 body {
     padding-top: 5rem;
 }
+
+#img {
+    border-radius: 50%;
+    height: 150px;
+	width: 150px;
+}
+
+#top_div{
+    background-color: green;
+    color: white;
+}
+
+#bottom_div{
+    border-style: solid;
+}
+
+#btn_follow{
+    border-radius: 10%;
+    background-color: green;
+    color: white;
+}
