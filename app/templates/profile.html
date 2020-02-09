@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block main %}
+<center>
+
+<img src={{ source }}></img>
+<h1>{{ name }}</h1>
+<h3>@{{ username }}</h3>
+<h3>{{ address }}</h3>
+<h3>{{ joined }}</h3>
+<p>{{ abt }}
+<br>
+<b>{{ posts }}  {{following}}  {{followers}}</b>
+<br>
+       Posts      Following    Followers
+<br>
+ <button type="button">Follow</button> 
+</p>
+
+</center>
+
+{% endblock %}
